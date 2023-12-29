@@ -1,0 +1,15 @@
+.icon {
+    width: 26px;
+    height: 26px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon-Search {
+    background-image: url(../icon/brand-logos.svg);
+}
