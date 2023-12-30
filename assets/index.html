@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Desing-Daily</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <div class="container">
       <header class="header">
         <a class="logo" href="#">
-          <img src="../assets/icon/brand-logos.svg" alt="" />
+          <img src="./icon/logo.svg" alt="" />
         </a>
         <nav class="navbar">
-          <a class="navbar-link" href="#">Free designs</a>
+          <a class="navbar-link active" href="#">Free designs</a>
           <a class="navbar-link" href="#">License</a>
           <a class="navbar-link" href="#">Articles</a>
           <a class="navbar-link" href="#">Contributors</a>
@@ -21,7 +21,7 @@
         </nav>
         <div>
           <button class="btn btn-first">Log in</button>
-          <button class="btn btn-second">Sign Up</button>
+          <button class="btn btn-birmary">Sign Up</button>
         </div>
       </header>
 
@@ -31,20 +31,23 @@
         <section class="Search-section">
           <div>
             <h1>Free UI resources for everyone</h1>
-            <p>
+            <p class="text">
               The largest database of 100% free UI components and designs
               available in the formats popular by UI designers.
             </p>
 
             <div class="form">
-              <div>
+              <div class="form-element">
+                <label>
                 <select>
                   <option value="">Free designs</option>
                   <option value="">License</option>
                 </select>
+                <i class="icon chevron-down"></i>
               </div>
-              <div>
-                <i class="icon icon-Search"></i>
+              <div class="input-element">
+                <i class="icon icon-Search sm"></i>
+              </label>
                 <input type="text" placeholder="Search" />
               </div>
             </div>
@@ -52,32 +55,34 @@
         </section>
         <!-- //////////////////////////////////////////////////////////////////////////////////// -->
 
-        <div class="card-container">
-          <div class="card-header">
-            <div class="tab">
-            <button>Latest</button>
-            <button>Popular</button>
-            <a href=""></a>
-            <a href=""></a>
-
+        <div class="lower-container">
+          <div class="Binary-button">
+            <button class=" btn-second active">Latest</button>
+            <button class="btn-second btn-opacity">Popular</button>
           </div>
-          <div>
-            <a href="#">All</a>
-            <a href="#">Web</a>
-            <a href="#">Mobile</a>
-            <a href="#">UI Kit</a>
-            <a href="#">Coded</a>
+          <div class="nav-container">
+            <a class="nav-link active" href="#">All</a>
+            <a class="nav-link" href="#">Web</a>
+            <a class="nav-link" href="#">Mobile</a>
+            <a class="nav-link" href="#">UI Kit</a>
+            <a class="nav-link" href="#">Coded</a>
           </div>
-          <div>
-            <figure>
-              <img src="../assets/icon/brand-logos.svg" alt="" />
-              <img src="../assets/icon/icon-1.png" alt="" />
-
-              <img src="../assets/icon/icon-2.png" alt="" />
-              <img src="../assets/icon/icon-3.png" alt="" />
-              <img src="../assets/icon/icon-4.png" alt="" />
-              <img src="../assets/icon/icon-5.png" alt="" />
-            </figure>
+          <div clsss="icons">
+          <a class="nav-icons" href="#">
+            <img src="./icon/figma.svg" alt="">
+            </a>
+          <a class="nav-icons" href="#">
+            <img src="./icon/Diamond.svg" alt="">
+          </a>
+          <a  class="nav-icons" href="#">
+            <img src="./icon/bd.svg" alt="">
+          </a>
+          <a  class="nav-icons" href="#">
+            <img src="./icon/xd.svg" alt="">
+          </a>
+          <a  class="nav-icons" href="#"> 
+            <img src="./icon/ps.png" alt="">
+          </a>
           </div>
         </div>
 
@@ -143,7 +148,7 @@
           <div class="card">
             <div>
               <figure>
-                <img src="../assets/img/card-3.png" alt="" />
+                <img src="." alt="" />
                 <img src=".//icon/icon-2.png" alt="" />
               </figure>
             </div>

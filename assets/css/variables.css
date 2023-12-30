@@ -1,5 +1,10 @@
 :root {
     --bodybg: #EDEDF9;
+    --container:#FCFCFF;
     --btnShadow:#F1F1FD;
     --btn-pirmary:#202142;
+
+}
+body * {
+    color: var(--btn-pirmary);
 }

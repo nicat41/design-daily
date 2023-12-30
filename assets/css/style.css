@@ -1,4 +1,5 @@
 @import url(./reset.css);
 @import url(./font.css);
-@import url(./variables);
+@import url(./variables.css);
+@import url(./icon.css);
 @import url(./main.css);

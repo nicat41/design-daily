@@ -1,15 +1,22 @@
 .icon {
-    width: 26px;
-    height: 26px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  width: 26px;
+  height: 26px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
+.sm {
+  width: 30px;
+  height: 30px;
+}
+
+.chevron-down {
+  background-image: url(../icon/chevron-down.svg);
+}
 .icon-Search {
-    background-image: url(../icon/brand-logos.svg);
+  background-image: url(../icon/Search.svg);
 }
